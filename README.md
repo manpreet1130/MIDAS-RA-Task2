@@ -5,7 +5,8 @@ This repository is a submission for the MIDAS Summer Internship/RA Task 2021.
 1. [Task A](#task-a)
 2. [Task B](#task-b)
 3. [Task C](#task-c)
-4. [References](#references)
+4. [Experiment Log Document](#experiment-log-document)
+5. [References](#references)
 
 ## Task A
 This folder consists of a **checkpoints** folder, and two python scripts by the name of **augment.py** and **cnnTaskA.py** respectively. 
@@ -29,6 +30,9 @@ This folder consists of folders by the names of **checkpointsPretrained**, **che
 4. The **runs** folder is used to log information into Tensorboard. To access Tensorboard, `tensorboard --logdir=runs` can be executed from the terminal.
 5. The **sortData.py** script is used to filter the images into their correct class folders. 
 6. The **cnnTaskC.py** script is used for training and testing the networks of this Task.
+
+## Experiment Log Document
+This document states all that worked and failed and provides detailed explanation of the accuracies achieved and graph comparisons of the different networks.
 
 ## References
 1. Image Augmentation: https://www.analyticsvidhya.com/blog/2019/12/image-augmentation-deep-learning-pytorch/
