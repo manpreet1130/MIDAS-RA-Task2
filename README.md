@@ -9,12 +9,14 @@ This repository is a submission for the MIDAS Summer Internship/RA Task 2021.
 5. [References](#references)
 
 ## Task A
-This folder consists of a **checkpoints** folder, and two python scripts by the name of **augment.py** and **cnnTaskA.py** respectively. 
+In this task, we were provided with a dataset comprising of alphanumeric characters ranging from 0-9, a-z and A-Z. We were asked to train a CNN on the dataset provided using no other data source or pretrained networks.
+Everything related to this task can be found in the folder labelled as **Task A**. This folder consists of a **checkpoints** folder, and two python scripts by the name of **augment.py** and **cnnTaskA.py** respectively. 
 1. The **augment.py** script comprises of three functions which were used to augment the dataset provided. These functions are aug(), zoom() and invert(). The aug() is responsible for adding rotation and translation to the images. The zoom() is responsible for warping the images. The invert() is used to convert the black alphanumeric characters to white and change the background from white to black.
 2. The **cnnTaskA.py** script comprises of the Network class and two functions, train() and test(). This script is used to train the model on the dataset provided and the checkpoints are saved in the **checkpoints** folder.
 
 ## Task B
-This folder comprises of folders by the names of **checkpointsMyData**, **checkpointsMyDataMNIST**, **checkpointsMyMNIST**, **results**, **runs** and a python script named **cnnTaskB.py**.
+In this next task, we were asked to select only the 0-9 classes from the previous dataset and train a network. Then, we were asked to train on the MNIST dataset using this pretrained network and compare it to the performance of a randomly initialized network. The comparison was to be done in terms of convergence time, final accuracy and other possible training quality metrics.
+Everything related to this task can be found in the folder labelled as **Task B**. This folder comprises of folders by the names of **checkpointsMyData**, **checkpointsMyDataMNIST**, **checkpointsMyMNIST**, **results**, **runs** and a python script named **cnnTaskB.py**.
 1. The **checkpointsMyData** folder has all the checkpoints used for training the network on only the 0-9 classes from the dataset provided in Task A. 
 2. The **checkpointsMyDataMNIST** folder consists of all the checkpoints saved while training the pretrained network on the MNIST dataset.
 3. The **checkpointsMyMNIST** folder consists of all the checkpoints saved while training a network from scratch on the MNIST dataset.
@@ -23,6 +25,8 @@ This folder comprises of folders by the names of **checkpointsMyData**, **checkp
 6. The **cnnTaskB.py** script is used for training and testing the different networks of this Task.
 
 ## Task C
+In this final task, a new dataset was provided to us comprising of roughly 60000 images divided amongst 10 folders labelled 0-9. We were asked to train on this dataset using scratch random initialization and using the pretrained network from Task A. We were asked to do the same analysis as on Task B and a qualitative analysis of what was different in this dataset. We were also asked to provide the test accuracy on the MNIST test set for each of these networks.
+
 This folder consists of folders by the names of **checkpointsPretrained**, **checkpointsScratch**, **results**, **runs** and two python scripts named **sortData.py** and **cnnTaskC.py**.
 1. The **checkpointsPretrained** folder comprises of checkpoints saved while training the pretrained model from Task A on the dataset provided in this task.
 2. The **checkpointsScratch** folder consists of checkpoints saved while training a model from scratch on the dataset provided.
