@@ -1,3 +1,6 @@
+#
+# Run pip install -r requirements.txt
+#
 torch==1.4.0
 torchvision==0.5.0
 numpy==1.19.2
