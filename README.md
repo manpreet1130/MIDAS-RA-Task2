@@ -32,7 +32,7 @@ This folder consists of folders by the names of **checkpointsPretrained**, **che
 6. The **cnnTaskC.py** script is used for training and testing the networks of this Task.
 
 ## Experiment Log Document
-This document states all that worked and failed and provides detailed explanation of the accuracies achieved and graph comparisons of the different networks.
+This document states all that worked and failed. It also provides detailed explanation of the accuracies achieved and graph comparisons of the different networks.
 
 ## References
 1. Image Augmentation: https://www.analyticsvidhya.com/blog/2019/12/image-augmentation-deep-learning-pytorch/
