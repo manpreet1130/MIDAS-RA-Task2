@@ -26,8 +26,7 @@ Everything related to this task can be found in the folder labelled as **Task B*
 
 ## Task C
 In this final task, a new dataset was provided to us comprising of roughly 60000 images divided amongst 10 folders labelled 0-9. We were asked to train on this dataset using scratch random initialization and using the pretrained network from Task A. We were asked to do the same analysis as on Task B and a qualitative analysis of what was different in this dataset. We were also asked to provide the test accuracy on the MNIST test set for each of these networks.
-
-This folder consists of folders by the names of **checkpointsPretrained**, **checkpointsScratch**, **results**, **runs** and two python scripts named **sortData.py** and **cnnTaskC.py**.
+Everything related to this task can be found in the folder labelled **Task C**. This folder consists of folders by the names of **checkpointsPretrained**, **checkpointsScratch**, **results**, **runs** and two python scripts named **sortData.py** and **cnnTaskC.py**.
 1. The **checkpointsPretrained** folder comprises of checkpoints saved while training the pretrained model from Task A on the dataset provided in this task.
 2. The **checkpointsScratch** folder consists of checkpoints saved while training a model from scratch on the dataset provided.
 3. The **results** folder has all the graphs for training accuracy and training loss of the two networks and also confusion matrix for both created when testing was done on the MNIST test split.
