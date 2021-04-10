@@ -2,9 +2,9 @@
 This repository is a submission for the MIDAS Summer Internship/RA Task 2021.
 
 ## Table of Contents
-1. [Task A](#taskA)
-2. [Task B](#taskB)
-3. [Task C](#taskC)
+1. [Task A](#taska)
+2. [Task B](#taskb)
+3. [Task C](#taskc)
 4. [References](#references)
 
 ## Task A
